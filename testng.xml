@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mySuit">
+    <listeners>
+        <listener class-name="report.ListenerTestNG"></listener>
+    </listeners>
+    <test  name="IteraQATests">
+        <classes>
+            <class name="testBase.loginTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+            <class name="testBase.SignupTest">
+                <methods>
+                    <include name="signupTest"/>
+                </methods>
+            </class>
+            <class name="testBase.CustomerTest">
+                <methods>
+                    <include name="AddNewCustomerTest"/>
+                    <include name="searchCustomerByMailTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
