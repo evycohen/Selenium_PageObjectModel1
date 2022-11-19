@@ -1145,3 +1145,83 @@
 
 
 2022-11-18 15:08:16,365 - driver.DriverManager -INFO - Quiting Driver
+2022-11-19 14:07:25,026 - factories.BrowserFactory -INFO - Lunching chrome Browser
+2022-11-19 14:07:27,820 - driver.DriverManager -INFO - Open Url: https://itera-qa.azurewebsites.net/
+2022-11-19 14:07:27,827 - testBase.loginTest -INFO - 
+
+*******************************  Starting loginTest*************************************
+
+2022-11-19 14:07:28,685 - pages.objects.HomePage -INFO - Clicked on: Login
+2022-11-19 14:07:28,767 - pages.objects.LoginPage -INFO - Sent Keys to userName:evyTest01
+2022-11-19 14:07:28,833 - pages.objects.LoginPage -INFO - Sent Keys to password:a1b1c1d
+2022-11-19 14:07:31,484 - pages.objects.LoginPage -INFO - Clicked on: loginBtn
+2022-11-19 14:07:31,503 - pages.objects.DashBoardPage -INFO - LogoutBtn Is Displayed
+2022-11-19 14:07:31,503 - testBase.loginTest -INFO - 
+********************************* End loginTest*************************************************
+
+
+2022-11-19 14:07:31,503 - driver.DriverManager -INFO - Quiting Driver
+2022-11-19 14:07:33,257 - factories.BrowserFactory -INFO - Lunching chrome Browser
+2022-11-19 14:07:35,320 - driver.DriverManager -INFO - Open Url: https://itera-qa.azurewebsites.net/
+2022-11-19 14:07:35,321 - testBase.SignupTest -INFO - 
+
+*******************************  Starting signupTest*************************************
+
+2022-11-19 14:07:35,847 - pages.objects.HomePage -INFO - Clicked on: Sign Up
+2022-11-19 14:07:35,911 - pages.objects.SignupPage -INFO - Sent Keys to firstName:evy
+2022-11-19 14:07:35,986 - pages.objects.SignupPage -INFO - Sent Keys to sureName:tester
+2022-11-19 14:07:36,073 - pages.objects.SignupPage -INFO - Sent Keys to email:tMCcskJr@xyz.com
+2022-11-19 14:07:36,147 - pages.objects.SignupPage -INFO - Sent Keys to mobile:1.23456789E8
+2022-11-19 14:07:36,212 - pages.objects.SignupPage -INFO - Sent Keys to userName:ekeErADm
+2022-11-19 14:07:36,280 - pages.objects.SignupPage -INFO - Sent Keys to password:a1b1c1d
+2022-11-19 14:07:36,346 - pages.objects.SignupPage -INFO - Sent Keys to confirmPassword:a1b1c1d
+2022-11-19 14:07:38,142 - pages.objects.SignupPage -INFO - Clicked on: submitBtn
+2022-11-19 14:07:38,167 - pages.objects.SignupPage -INFO - SuccessSignupMessage Text: Registration Successful
+2022-11-19 14:07:38,168 - assertion.AssertionHelper -INFO - Verify is Registration Successful equals: Registration Successful
+2022-11-19 14:07:38,168 - testBase.SignupTest -INFO - 
+********************************* End signupTest*************************************************
+
+
+2022-11-19 14:07:38,169 - driver.DriverManager -INFO - Quiting Driver
+2022-11-19 14:07:39,842 - factories.BrowserFactory -INFO - Lunching chrome Browser
+2022-11-19 14:07:41,859 - driver.DriverManager -INFO - Open Url: https://itera-qa.azurewebsites.net/
+2022-11-19 14:07:41,860 - testBase.CustomerTest -INFO - 
+
+*******************************  Starting AddNewCustomerTest*************************************
+
+2022-11-19 14:07:42,568 - pages.objects.HomePage -INFO - Clicked on: Login
+2022-11-19 14:07:42,637 - pages.objects.LoginPage -INFO - Sent Keys to userName:evyTest03
+2022-11-19 14:07:42,699 - pages.objects.LoginPage -INFO - Sent Keys to password:a1b1c1d
+2022-11-19 14:07:43,642 - pages.objects.LoginPage -INFO - Clicked on: loginBtn
+2022-11-19 14:07:44,132 - pages.objects.DashBoardPage -INFO - Clicked on: create new customer button
+2022-11-19 14:07:44,190 - pages.objects.AddNewCustomerPage -INFO - Sent Keys to name:evy
+2022-11-19 14:07:44,251 - pages.objects.AddNewCustomerPage -INFO - Sent Keys to customer company:evyCompany
+2022-11-19 14:07:44,313 - pages.objects.AddNewCustomerPage -INFO - Sent Keys to customer address:street1A
+2022-11-19 14:07:44,373 - pages.objects.AddNewCustomerPage -INFO - Sent Keys to customer city:telaviv
+2022-11-19 14:07:44,438 - pages.objects.AddNewCustomerPage -INFO - Sent Keys to customer phone:1.23456789E8
+2022-11-19 14:07:44,505 - pages.objects.AddNewCustomerPage -INFO - Sent Keys to customer email:evyCompany@xyz.com
+2022-11-19 14:07:45,666 - pages.objects.AddNewCustomerPage -INFO - Clicked on: create new customer
+2022-11-19 14:07:45,672 - pages.objects.DashBoardPage -INFO - Page Title: - Testautomation practice page
+2022-11-19 14:07:45,673 - assertion.AssertionHelper -INFO - Verify is - Testautomation practice page equals: - Testautomation practice page
+2022-11-19 14:07:45,673 - testBase.CustomerTest -INFO - 
+********************************* End AddNewCustomerTest*************************************************
+
+
+2022-11-19 14:07:45,674 - driver.DriverManager -INFO - Quiting Driver
+2022-11-19 14:07:47,612 - factories.BrowserFactory -INFO - Lunching chrome Browser
+2022-11-19 14:07:49,595 - driver.DriverManager -INFO - Open Url: https://itera-qa.azurewebsites.net/
+2022-11-19 14:07:49,598 - testBase.CustomerTest -INFO - 
+
+*******************************  Starting searchCustomerByMailTest*************************************
+
+2022-11-19 14:07:50,297 - pages.objects.HomePage -INFO - Clicked on: Login
+2022-11-19 14:07:50,363 - pages.objects.LoginPage -INFO - Sent Keys to userName:usertester1
+2022-11-19 14:07:50,425 - pages.objects.LoginPage -INFO - Sent Keys to password:12345
+2022-11-19 14:07:51,451 - pages.objects.LoginPage -INFO - Clicked on: loginBtn
+2022-11-19 14:07:51,520 - pages.objects.DashBoardPage -INFO - Sent Keys to Searching bar input:evyMail@xyz.com
+2022-11-19 14:07:51,940 - pages.objects.DashBoardPage -INFO - Clicked on: search btn
+2022-11-19 14:07:52,058 - testBase.CustomerTest -INFO - 
+********************************* End searchCustomerByMailTest*************************************************
+
+
+2022-11-19 14:07:52,058 - driver.DriverManager -INFO - Quiting Driver
